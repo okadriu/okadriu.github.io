@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- JS -->
+    <script src="assets/js/main.js" defer></script>
+    <!-- Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/Favicon/site.webmanifest">
+    <!-- Primary Meta Tags -->
+    <title>Oltian Kadriu - Portfolio</title>
+    <meta name="title" content="Oltian Kadriu">
+    <meta name="description" content="Noch keine Beschreibung Bro">
+  </head>
+  <body id="my-scrollbar">
+    <!-- Violetter, verschwommener Punkt -->
+    <div class="color"></div>
+    <!-- HEADER -->
+    <header class="header">
+      <!-- Memoji oben links -->
+      <img src="assets/img/memoji.ico" alt="Oltians Memoji" class="logo">
+      <!-- Kontakt Button -->
+      <a href="mailto:oltian.kadriu@gmx.ch" class="btn btn--contact">Kontakt</a>
+    </header>
+    <!-- MAIN -->
+    <main class="main">
+      <!-- Hey ich bin Oltian Text -->
+      <section class="intro">
+        <h1 class="first-heading">Hey <span class="emoji">👋</span>
+        </h1>
+        <p class="text">
+          <span class="u-bold">Ich bin <span class="u-purple">Oltian</span>
+          </span>, <span class="u-italic">ein Informatikmittelschüler</span>
+          <span class="text--second">aus Baden.</span>
+        </p>
+      </section>
+      <!-- Projekte -->
+      <section class="work">
+        <div class="top">
+          <h2 class="second-heading">Meine Projekte</h2>
+          <ul class="filters">
+            <li class="filter-item">
+              <button class="filter-btn filter-btn--active alleBtn">Alle</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-btn">Schulprojekte</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-btn">Freizeitprojekte</button>
+            </li>
+          </ul>
+        </div>
+        <!-- GRID -->
+        <section class="grid">
+          <div class="project" onclick="location.href='uaLet.html'">
+            <section class="project-info">
+              <h3 class="third-heading">uaLet</h3>
+              <p class="description">Ein Design für ein modernes Dashboard.</p>
+              <ul class="technologies">
+                <li class="technology">Figma</li>
+                <li class="technology">Design</li>
+                <li class="technology">Mockup</li>
+              </ul>
+            </section>
+            <img alt="Project" src="/assets/img/uaLet.png" class="grid-img">
+          </div>
+          <div class="project" onclick="location.href='https:\\github.com/okadriu/WeatherApp'">
+            <section class="project-info">
+              <h3 class="third-heading">Wetterapp</h3>
+              <p class="description">Eine Website, wo das aktuelle Wetter angezeigt wird.</p>
+              <ul class="technologies">
+                <li class="technology">Bootstrap</li>
+                <li class="technology">JavaScript</li>
+                <li class="technology">API</li>
+              </ul>
+            </section>
+            <img src="assets/img/uEther.png" alt="Project" class="grid-img">
+          </div>
+          <div class="project" onclick="location.href='https:\\github.com/okadriu/Bootstrap-5-Login-Page'">
+            <section class="project-info">
+              <h3 class="third-heading">Login</h3>
+              <p class="description">Eine simple Login-Seite, wo man sich ebenfalls registrieren kann, wenn man noch kein Konto besitzt.</p>
+              <ul class="technologies">
+                <li class="technology">Bootstrap</li>
+                <li class="technology">JavaScript</li>
+                <li class="technology">SQL</li>
+              </ul>
+            </section>
+            <img src="assets/img/Login.png" alt="Project" class="grid-img">
+          </div>
+          <div class="fade"></div>
+        </section>
+      </section>
+      <a href="assets/Lebenslauf.pdf" download class="btn btn--download">
+        <span class="u-bolder">Lebenslauf</span> herunterladen </a>
+      <ul class="links">
+        <li class="link-item">
+          <a href="https://github.com/okadriu" class="link" target="_blank">
+            <img class="link-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzAiIGhlaWdodD0iMzAiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTg2LDE3LjJjLTM3Ljk5NDgsMCAtNjguOCwzMC44MDUyIC02OC44LDY4LjhjMCwzMi4yMzg1MyAyMi4xOTk0Nyw1OS4yMTM4NyA1Mi4xMjc0Nyw2Ni42Nzg2N2MtMC4zMjEwNywtMC45Mjg4IC0wLjUyNzQ3LC0yLjAwNjY3IC0wLjUyNzQ3LC0zLjM0MjUzdi0xMS43NTkwN2MtMi43OTIxMywwIC03LjQ3MDUzLDAgLTguNjQ1ODcsMGMtNC43MDcwNywwIC04Ljg5MjQsLTIuMDIzODcgLTEwLjkyMiwtNS43ODQ5M2MtMi4yNTMyLC00LjE3OTYgLTIuNjQzMDcsLTEwLjU3MjI3IC04LjIyNzMzLC0xNC40ODI0Yy0xLjY1NjkzLC0xLjMwMTQ3IC0wLjM5NTYsLTIuNzg2NCAxLjUxMzYsLTIuNTg1NzNjMy41MjYsMC45OTc2IDYuNDUsMy40MTcwNyA5LjIwMiw3LjAwNjEzYzIuNzQwNTMsMy41OTQ4IDQuMDMwNTMsNC40MDg5MyA5LjE1MDQsNC40MDg5M2MyLjQ4MjUzLDAgNi4xOTc3MywtMC4xNDMzMyA5LjY5NTA3LC0wLjY5MzczYzEuODgwNTMsLTQuNzc1ODcgNS4xMzEzMywtOS4xNzMzMyA5LjEwNDUzLC0xMS4yNDg4Yy0yMi45MTA0LC0yLjM1NjQgLTMzLjg0Mzg3LC0xMy43NTQyNyAtMzMuODQzODcsLTI5LjIyODUzYzAsLTYuNjYyMTMgMi44MzgsLTEzLjEwNjQgNy42NTk3MywtMTguNTM1ODdjLTEuNTgyNCwtNS4zODkzMyAtMy41NzE4NywtMTYuMzgwMTMgMC42MDc3MywtMjAuNTY1NDdjMTAuMzA4NTMsMCAxNi41NDA2Nyw2LjY4NTA3IDE4LjAzNzA3LDguNDkxMDdjNS4xMzcwNywtMS43NjAxMyAxMC43Nzg2NywtMi43NTc3MyAxNi43MDY5MywtMi43NTc3M2M1LjkzOTczLDAgMTEuNjA0MjcsMC45OTc2IDE2Ljc1MjgsMi43NjkyYzEuNDc5MiwtMS43OTQ1MyA3LjcxNzA3LC04LjUwMjUzIDE4LjA0ODUzLC04LjUwMjUzYzQuMTk2OCw0LjE5MTA3IDIuMTg0NCwxNS4yMjc3MyAwLjU4NDgsMjAuNjA1NmM0Ljc5MzA3LDUuNDE4IDcuNjEzODcsMTEuODQ1MDcgNy42MTM4NywxOC40OTU3M2MwLDE1LjQ2MjggLTEwLjkxNjI3LDI2Ljg1NDkzIC0zMy43OTIyNywyOS4yMjI4YzYuMjk1MiwzLjI4NTIgMTAuODg3NiwxMi41MTU4NyAxMC44ODc2LDE5LjQ3MDR2MTUuNjc0OTNjMCwwLjU5NjI3IC0wLjEzMTg3LDEuMDI2MjcgLTAuMjAwNjcsMS41MzY1M2MyNi44MDkwNywtOS4zOTY5MyA0Ni4wNjczMywtMzQuODUyOTMgNDYuMDY3MzMsLTY0Ljg3MjY3YzAsLTM3Ljk5NDggLTMwLjgwNTIsLTY4LjggLTY4LjgsLTY4Ljh6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=" alt="GitHub">
+          </a>
+        </li>
+    </main>
+    <footer class="footer">
+      <small class="copyright">&copy; Copyright 2022. All rights reserved.</small>
+      <a href="mailto:oltian.kadriu@gmx.ch" class="email">oltian.kadriu@gmx.ch</a>
+    </footer>
+    <script>
+      const jsConfetti = new JSConfetti();
+      async function confettiFY() {
+        await jsConfetti.addConfetti({
+          confettiColors: ['#5f00ee', '#7322f5', '#8b48f7', '#995cfa', '#a773fa', '#b991fa'],
+          confettiNumber: 1000,
+        });
+      }
+      document.querySelector(".logo").addEventListener("click", confettiFY);
+    </script>
+  </body>
+</html>
