@@ -77,14 +77,14 @@
             </section>
             <img alt="Project" src="/assets/img/uaLet.png" class="grid-img">
           </div>
-          <div class="project">
+          <div onclick="navToWeatherApp()" class="project">
             <section class="project-info">
               <h3 class="third-heading">Wetterapp</h3>
               <p class="description">Eine Webseite, welche Ihnen das aktuelle Wetter anzeigt und das Wetter für die nächsten Tage vorhersagt.</p>
               <ul class="technologies">
                 <li class="technology">JavaScript</li>
                 <li class="technology">API</li>
-                <li class="technology readMore"><a href="https://github.com/okadriu/WeatherApp">Mehr Dazu</a></li>
+                
               </ul>
             </section>
             <img src="assets/img/uEther.png" alt="Project" class="grid-img">
@@ -126,6 +126,12 @@
         });
       }
       document.querySelector(".logo").addEventListener("click", confettiFY);
+
+      function navToWeatherApp() {
+    window.location.href = "https://github.com/okadriu/WeatherApp";
+}
+
     </script>
+
   </body>
 </html>
