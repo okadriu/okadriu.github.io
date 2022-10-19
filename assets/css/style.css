@@ -201,8 +201,6 @@ body::-webkit-scrollbar {
 	display: flex;
 	column-gap: 40px;
 }
-.filter-item {
-}
 .filter-btn {
 	opacity: 0.6;
 	font-size: 13px;
@@ -304,8 +302,6 @@ body::-webkit-scrollbar {
 .link-item:hover {
 	transform: scale(1.15);
 }
-.link {
-}
 .link-img {
 	width: 20px;
 	height: 20px;
@@ -319,8 +315,6 @@ body::-webkit-scrollbar {
 	color: rgba(255, 255, 255, 0.4);
 	display: flex;
 	justify-content: space-between;
-}
-.copyright {
 }
 .email {
 	font-size: 12px;
